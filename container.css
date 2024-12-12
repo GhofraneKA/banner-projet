@@ -1,0 +1,18 @@
+/* Conteneur principal */
+.container {
+    max-width: 1200px;  /* Augmenter la largeur maximale pour les grands écrans */
+    width: 100%;        /* S'assure qu'il occupe toute la largeur disponible */
+    margin: 0 auto;     /* Centrer le contenu */
+    padding: 20px;      /* Ajouter de l'espace autour du contenu */
+    box-sizing: border-box;
+    background-color: #fff;  /* Fond blanc pour améliorer la lisibilité */
+    border-radius: 8px;      /* Coins arrondis pour un effet plus moderne */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Ajouter une légère ombre pour l'effet de profondeur */
+}
+
+/* Responsive: Réduire la largeur sur petits écrans */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;  /* Réduire l'espace autour du contenu sur petits écrans */
+    }
+}
